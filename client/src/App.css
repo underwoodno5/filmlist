@@ -1,0 +1,145 @@
+body {
+  background-color: #fff;
+}
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in-out;
+  -webkit-transition: opacity 1000ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in-out;
+  -webkit-transition: opacity 1000ms ease-in-out;
+}
+
+.mb-5 {
+  margin-bottom: 0 !important;
+}
+
+.list-container {
+  height: auto;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #4d63cf;
+  border-top: solid 4px #4d63cf;
+  margin: 5px 0 0 0;
+  box-shadow: -1px -1px 8px 2px #888888;
+}
+
+.list-group-item {
+  margin-bottom: 0.8rem;
+  border-radius: 0;
+  background: none;
+  color: #f8f9fa;
+  border: #b7b9bb solid;
+  border-width: 0 0 2px 0;
+  padding-left: 0;
+  width: 30rem;
+  margin: auto;
+}
+
+.btn-outline-info {
+  border-color: #4d5fd7;
+  color: #fff;
+}
+
+.film-modal-btn {
+  margin: 2rem auto 0 auto;
+  display: block;
+  color: #fdfdfd9e;
+  background: none;
+  border: none;
+}
+
+.link-modal-btn {
+  display: block;
+  color: #fff;
+  background: none;
+  border: none;
+  float: right;
+}
+
+.film-list {
+  width: 35rem;
+  margin: 4rem auto;
+}
+.MuiSvgIcon-root-16 {
+  color: white;
+}
+
+.MuiFab-primary-5 {
+  color: #ffffff !important;
+  background-color: #7180e0 !important;
+  position: fixed !important;
+  right: 5rem !important;
+  bottom: 1rem !important;
+  z-index: 1 !important;
+  opacity: 0;
+}
+
+.link-container {
+  float: right;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+}
+
+.MuiExpansionPanel-root-32,
+.MuiPaper-root-117 {
+  background: none !important;
+  box-shadow: none !important;
+  width: 100%;
+}
+
+.MuiExpansionPanel-root-32:before {
+  top: 54px !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.MuiTypography-body1-77,
+.MuiTypography-root-150 {
+  color: rgba(255, 255, 255, 0.87) !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  font-family: 'Muli', 'Helvetica', 'Arial', sans-serif !important;
+  line-height: 2rem !important;
+  margin-left: 3% !important;
+}
+
+/* 
+===== Media Queries ======
+*/
+@media only screen and (max-width: 600px) {
+  .film-modal-btn {
+    display: none;
+  }
+  .list-group {
+    padding-bottom: 2rem;
+  }
+  .film-list {
+    margin-top: 2rem;
+  }
+  .MuiFab-primary-5 {
+    opacity: 1;
+  }
+  .list-container {
+    border-radius: 8px 8px 0 0;
+    box-shadow: -1px -1px 8px 2px #888888;
+  }
+}
